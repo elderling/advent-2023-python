@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "advent2023"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan W. Taylor <elderling@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
